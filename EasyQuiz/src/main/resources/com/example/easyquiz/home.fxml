@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="529.0" prefWidth="758.0" style="-fx-background-color: white; -fx-background-radius: 32px; -fx-border-radius: 32px;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.easyquiz.HomeController">
+   <children>
+      <ImageView fitHeight="399.0" fitWidth="743.0" layoutX="24.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/Lesotho-feature.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="169.0" layoutY="22.0" text="Lesotho Travia Game">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="playquizbtn" layoutX="238.0" layoutY="266.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="304.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 32px;; -fx-border-radius: 32px;" text="PLAY" textFill="WHITE">
+         <font>
+            <Font name="Open Sans Semibold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
